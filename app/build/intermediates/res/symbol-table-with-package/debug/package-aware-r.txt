@@ -622,6 +622,7 @@ id center_vertical
 id checkbox
 id chronometer
 id city
+id climate
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -663,6 +664,9 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id parentPanel
+id pm2_5
+id pm2_5_img
+id pm2_5_quality
 id progress_circular
 id progress_horizontal
 id radio
@@ -699,6 +703,7 @@ id submenuarrow
 id submit_area
 id tabMode
 id tag_transition_group
+id temperature
 id text
 id text2
 id textSpacerNoButtons
@@ -717,7 +722,11 @@ id uniform
 id up
 id useLogo
 id weather_cur
+id weather_current
+id weather_img
 id weather_today
+id week_today
+id wind
 id withText
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -763,7 +772,10 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout title_bar
+layout weather_cur
 layout weather_info
+layout weather_pm25
+layout weather_today
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

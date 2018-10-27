@@ -6,7 +6,7 @@
     android:layout_below="@id/weather_current"
     android:layout_centerInParent="true"
     android:layout_marginTop="5dp"
-    android:background="#ffff0000">
+    >
     <!-- 天气情况图例 -->
     <ImageView
         android:id="@+id/weather_img"
