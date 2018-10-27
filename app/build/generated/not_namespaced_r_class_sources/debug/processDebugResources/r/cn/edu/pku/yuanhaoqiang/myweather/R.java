@@ -2567,7 +2567,8 @@ public final class R {
     public static final int select_dialog_multichoice_material=0x7f090022;
     public static final int select_dialog_singlechoice_material=0x7f090023;
     public static final int support_simple_spinner_dropdown_item=0x7f090024;
-    public static final int weather_info=0x7f090025;
+    public static final int title_bar=0x7f090025;
+    public static final int weather_info=0x7f090026;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;

@@ -3,60 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
+    <!-- title -->
+    <include
         android:id="@+id/title"
-        android:layout_width="fill_parent"
-        android:layout_height="45.0dip"
-        android:background="#ffcd2626"
-        android:gravity="center_vertical">
+        layout="@layout/title_bar"/>
 
-        <!-- city-->
-        <ImageView
-            android:id="@+id/city"
-            android:layout_width="45.0dip"
-            android:layout_height="45.0dip"
-            android:src="@drawable/title_city"/>
-
-        <ImageView
-            android:id="@+id/sity_seperator"
-            android:layout_width="1.0dip"
-            android:layout_height="40dip"
-            android:layout_marginTop="2dp"
-            android:layout_toRightOf="@id/city"
-            android:background="#A71717"/>
-
-        <TextView
-            android:id="@+id/title_city_name"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_toRightOf="@id/sity_seperator"
-            android:gravity="center_vertical"
-            android:paddingLeft="5dip"
-            android:text="北京天气"
-            android:textColor="#ffffffff"
-            android:textSize="22sp" />
-
-        <ImageView
-            android:id="@+id/title_update_btn"
-            android:layout_width="45.0dip"
-            android:layout_height="45.0dip"
-            android:layout_alignParentRight="true"
-            android:foregroundGravity="center"
-            android:src="@drawable/title_update"/>
-
-        <ImageView
-            android:id="@+id/title_share_btn"
-            android:layout_width="45.0dip"
-            android:layout_height="45.0dip"
-            android:layout_toLeftOf="@id/title_update_btn"
-            android:src="@drawable/title_share"/>
-
-        <ImageView
-            android:id="@+id/title_location"
-            android:layout_width="45.0dip"
-            android:layout_height="45.0dip"
-            android:layout_toLeftOf="@id/title_share_btn"
-            android:src="@drawable/base_action_bar_action_city"/>
-
-    </RelativeLayout>
 </RelativeLayout>

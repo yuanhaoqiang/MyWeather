@@ -5,23 +5,31 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="FIELD_REMOVED"
     plugin-version="3.2.1"
-    timestamp="1540641546189"
+    timestamp="1540648865634"
     token="7831806489089744393"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="24216" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1904" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1660" />
+
+    <artifact
+        location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -66,7 +74,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1540641546189"
-        verifier="COLD_SWAP_REQUESTED" />
+        ir-eligibility="FIELD_REMOVED"
+        timestamp="1540648865634"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>
