@@ -560,6 +560,8 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable base_action_bar_action_city
+drawable biz_plugin_weather_0_50
+drawable biz_plugin_weather_qing
 drawable biz_plugin_weather_shenzhen_bg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -639,6 +641,7 @@ id fill_vertical
 id forever
 id home
 id homeAsUp
+id humidity
 id icon
 id icon_group
 id ifRoom
@@ -713,6 +716,8 @@ id topPanel
 id uniform
 id up
 id useLogo
+id weather_cur
+id weather_today
 id withText
 id wrap_content
 integer abc_config_activityDefaultDur
