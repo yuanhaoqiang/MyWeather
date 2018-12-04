@@ -144,6 +144,10 @@
         "source": "C:\\Users\\10530\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3e24412c41ed743d0bd2495cf6702d11\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
+        "merged": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_base_action_bar_back_normal.png.flat",
+        "source": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\src\\main\\res\\drawable-xhdpi\\base_action_bar_back_normal.png"
+    },
+    {
         "merged": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\10530\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb38a80671207c4c1741b381eb8c7e14\\res\\drawable\\notification_bg_low.xml"
     },
@@ -904,6 +908,10 @@
         "source": "C:\\Users\\10530\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3e24412c41ed743d0bd2495cf6702d11\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_base_action_bar_back_normal.png.flat",
+        "source": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\src\\main\\res\\drawable\\base_action_bar_back_normal.png"
+    },
+    {
         "merged": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\10530\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3e24412c41ed743d0bd2495cf6702d11\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
@@ -1506,6 +1514,10 @@
     {
         "merged": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\10530\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3e24412c41ed743d0bd2495cf6702d11\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_city.xml.flat",
+        "source": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\src\\main\\res\\layout\\select_city.xml"
     },
     {
         "merged": "D:\\Users\\10530\\Desktop\\Android\\MyWeather\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",

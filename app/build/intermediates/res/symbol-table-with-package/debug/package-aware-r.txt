@@ -560,6 +560,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable base_action_bar_action_city
+drawable base_action_bar_back_normal
 drawable biz_plugin_weather_0_50
 drawable biz_plugin_weather_101_150
 drawable biz_plugin_weather_151_200
@@ -646,6 +647,8 @@ id center_vertical
 id checkbox
 id chronometer
 id city
+id city_manager
+id city_seperator
 id climate
 id clip_horizontal
 id clip_vertical
@@ -716,8 +719,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id sity
-id sity_seperator
 id spacer
 id split_action_bar
 id src_atop
@@ -736,8 +737,10 @@ id textSpacerNoTitle
 id time
 id title
 id titleDividerNoCustom
+id title_back
 id title_city_name
 id title_location
+id title_name
 id title_share_btn
 id title_template
 id title_update_btn
@@ -792,6 +795,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout select_city
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

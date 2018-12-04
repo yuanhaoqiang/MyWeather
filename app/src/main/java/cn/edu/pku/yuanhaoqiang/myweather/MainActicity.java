@@ -1,6 +1,7 @@
 package cn.edu.pku.yuanhaoqiang.myweather;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
@@ -32,6 +33,7 @@ import cn.edu.pku.yuanhaoqiang.util.NetUtil;
 public class MainActicity extends Activity implements View.OnClickListener {
     private static final int UPDATE_TODAY_WEATHER = 1;
     private ImageView mUpdateBtn;
+    private ImageView mCitySelect;
     private TextView cityTv,timeTv,humidityTv,weekTv, pmDataTv, pmQualityTv, temperatureTv, climateTv, windTv, city_name_Tv;
     private ImageView weatherImg, pmImg;
 
@@ -62,6 +64,9 @@ public class MainActicity extends Activity implements View.OnClickListener {
             Log.d("MyWeather", "网络挂了！");
             Toast.makeText(MainActicity.this, "网络挂了！", Toast.LENGTH_LONG).show();
         }
+
+        mCitySelect = (ImageView)findViewById(R.id.city_manager);
+        mCitySelect.setOnClickListener(this);
 
         initView();
 
@@ -183,6 +188,13 @@ public class MainActicity extends Activity implements View.OnClickListener {
 
 
     public void onClick(View view){
+        if (view.getId() == R.id.city_manager){
+            Intent i = new Intent(this, SelectCity.class);
+            //startActivity(i);
+            startActivityForResult(i, 1);
+
+        }
+
         if (view.getId()==R.id.title_update_btn){
             SharedPreferences sharedPreferences = getSharedPreferences("config", MODE_PRIVATE);
             String cityCode = sharedPreferences.getString("main_city_code", "101180101");
@@ -199,6 +211,22 @@ public class MainActicity extends Activity implements View.OnClickListener {
             Toast.makeText(MainActicity.this,"网络挂了！",Toast.LENGTH_LONG).show();
         }
     }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == 1 && resultCode == RESULT_OK) {
+            String newCityCode= data.getStringExtra("cityCode");
+            Log.d("myWeather", "选择的城市代码为"+newCityCode);
+
+            if (NetUtil.getNetworkState(this) != NetUtil.NETWORK_NONE) {
+                Log.d("myWeather", "网络OK");
+                queryWeatherCode(newCityCode);
+            } else {
+                Log.d("myWeather", "网络挂了");
+                Toast.makeText(MainActicity.this, "网络挂了！", Toast.LENGTH_LONG).show();
+            }
+        }
+    }
+
 
     //解析函数，包括城市名称，更新时间信息等
   //

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
-INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
-INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
-INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
+ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\10530\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3e24412c41ed743d0bd2495cf6702d11\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\10530\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\dfc0eec6f82c03c8f7abe885d94cf42b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\10530\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ea9b73f2d80c4872b4102538d6d1f5ad\AndroidManifest.xml:17:1-22:12
@@ -15,20 +15,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\10530\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\10530\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\b6f0e0f73b0f91857c9564b9bda95847\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\10530\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e532cfb2e451bffdf16db5b231456202\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\10530\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\eb4279a0ba427e7df707d73548fd0ce5\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
-INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
-INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
+INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
 	package
 		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:2:5-48
 		INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
+		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
 		INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-24:12
+		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:1-29:12
 		INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:1:11-69
@@ -41,7 +41,7 @@ ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest
 	android:name
 		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:7:5-19:19
+ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:7:5-24:19
 	android:label
 		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:10:9-41
 	android:icon
@@ -64,6 +64,10 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:16:17-76
 	android:name
 		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:16:27-74
+activity#cn.edu.pku.yuanhaoqiang.myweather.SelectCity
+ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:20:9-22:20
+	android:name
+		ADDED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml:20:19-45
 uses-sdk
 INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Users\10530\Desktop\Android\MyWeather\app\src\main\AndroidManifest.xml
