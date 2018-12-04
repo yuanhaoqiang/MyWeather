@@ -2,38 +2,34 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1543913845517"
+    timestamp="1543933872770"
     token="7831806489089744393"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="31828" />
+        duration="687" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="130" />
     <task
         name="instant-run-transform"
-        duration="1136" />
+        duration="172" />
     <task
         name="verifier"
-        duration="736" />
+        duration="32" />
 
     <artifact
-        location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1543912325878"
+        timestamp="1543933568795"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -75,7 +71,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1543913845517"
+        timestamp="1543933804450"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -83,6 +79,14 @@
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1543933872770"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

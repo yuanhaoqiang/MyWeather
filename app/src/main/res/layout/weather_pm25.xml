@@ -18,7 +18,7 @@
             android:orientation="vertical">
             <!-- PM2.5文字 -->
             <TextView
-                android:id="@+id/pm2_5"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
@@ -27,6 +27,7 @@
                 android:textSize="12sp"/>
             <!-- PM2.5数值 -->
             <TextView
+                android:id="@+id/pm2_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"

@@ -9,7 +9,7 @@
 
     <!-- city-->
     <ImageView
-        android:id="@+id/city"
+        android:id="@+id/sity"
         android:layout_width="45.0dip"
         android:layout_height="45.0dip"
         android:src="@drawable/title_city"/>
@@ -19,7 +19,7 @@
         android:layout_width="1.0dip"
         android:layout_height="40dip"
         android:layout_marginTop="2dp"
-        android:layout_toRightOf="@id/city"
+        android:layout_toRightOf="@id/sity"
         android:background="#A71717"/>
 
     <TextView
