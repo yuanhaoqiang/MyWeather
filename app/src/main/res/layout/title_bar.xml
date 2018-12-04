@@ -41,6 +41,16 @@
         android:foregroundGravity="center"
         android:src="@drawable/title_update"/>
 
+<!--
+    <ImageButton
+        android:id="@+id/title_update_btn"
+        android:layout_width="45.0dip"
+        android:layout_height="45.0dip"
+        android:src="@drawable/title_update"
+        android:layout_alignParentRight="true"
+        android:foregroundGravity="center"
+        />
+    -->
     <ImageView
         android:id="@+id/title_share_btn"
         android:layout_width="45.0dip"
@@ -54,5 +64,7 @@
         android:layout_height="45.0dip"
         android:layout_toLeftOf="@id/title_share_btn"
         android:src="@drawable/base_action_bar_action_city"/>
+
+
 
 </RelativeLayout>
