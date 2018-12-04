@@ -5,34 +5,53 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1543854616319"
+    timestamp="1543913845517"
     token="7831806489089744393"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="31828" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1136" />
     <task
         name="verifier"
-        duration="0" />
+        duration="736" />
+
+    <artifact
+        location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1543853580129"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1543912325878"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -41,19 +60,10 @@
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -61,14 +71,11 @@
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="METHOD_ADDED"
-        timestamp="1543854459822"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1543913845517"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -77,9 +84,5 @@
             location="D:\Users\10530\Desktop\Android\MyWeather\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1543854616319"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
